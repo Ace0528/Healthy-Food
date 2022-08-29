@@ -1,0 +1,30 @@
+.header {
+  width: 100vw;
+  height: 70px;
+  border-bottom: 2px solid #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-container {
+  margin-left: 15px;
+}
+.rignt-container {
+  margin-right: 15px;
+}
+.header-logo {
+  height: 60px;
+  padding: 5px;
+}
+.header-icon {
+  padding: 20.5px;
+}
+.profile-icon {
+  height: 30px;
+}
+.margin-header-icon {
+  margin-left: 20px;
+}
+.username {
+  display: inline-block;
+}

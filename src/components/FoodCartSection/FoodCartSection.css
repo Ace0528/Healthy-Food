@@ -1,0 +1,9 @@
+.foods {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 30px;
+  margin-top: 50px;
+}

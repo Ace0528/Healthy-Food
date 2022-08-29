@@ -1,0 +1,161 @@
+@import "./colors.scss";
+
+@mixin title-font {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+  color: $black-default-color;
+}
+
+@mixin user-name {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 23px;
+  letter-spacing: -0.24px;
+  color: $black-default-color;
+}
+
+@mixin title-home {
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 31px;
+  color: $gray-default-color;
+}
+
+@mixin home-card-title {
+  color: $gray-default-color;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  margin: 5px 0;
+}
+@mixin home-card-description {
+  color: $gray-default-color;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+@mixin logOut {
+  cursor: pointer;
+  color: $gray-default-color;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  display: inline-block;
+  
+}
+@mixin favourite-title {
+  color: $gray-default-color;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  display: inline-block;
+}
+@mixin foods-category {
+  border-radius: 8px;
+  width: 78px;
+  padding: 4px 10px;
+  text-align: center;
+  background-color: $input-default-backgound-color;
+}
+@mixin foods-category-title {
+  color: $gray-default-color;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+@mixin product-datails-title {
+  color: $gray-default-color;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  margin-top: 51px;
+  margin-left: 150px;
+}
+@mixin favourite-details {
+  color: $gray-default-color;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: -0.24px;
+}
+@mixin details {
+  color: $detail-defaulst-color;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.24px;
+}
+@mixin highlight-colors {
+  color: $green-default-color;
+}
+@mixin empty-heading {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  letter-spacing: -0.24px;
+  color: #696969;
+}
+@mixin empty-title {
+  font-weight: 400;
+font-size: 13px;
+line-height: 22px;
+letter-spacing: -0.24px;
+color: $detail-defaulst-color;
+}
+@mixin product-name {
+  font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+color: $gray-default-color;
+}
+@mixin product-category {
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.24px;
+color: $gray-default-color;
+}
+@mixin product-category-calories {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.24px;
+  color: $red-default-color;
+}
+@mixin see-all-color {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: -0.24px;
+  color: $green-default-color;
+}
+@mixin product-ingrediants-description {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 30px;
+  color: $detail-defaulst-color;
+}
+@mixin add-btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: -0.24px;
+  color: #FFFFFF;
+  border: none;
+  background-color: $green-default-color;
+  border-radius: 9px;
+  padding: 9px 83px;
+}
+@mixin disabled-btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: -0.24px;
+  color: #C7C6C6;
+  border-radius: 9px;
+  background: #DADADA;
+  border: none;
+  padding: 9px 83px;
+}

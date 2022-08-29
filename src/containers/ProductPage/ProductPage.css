@@ -1,0 +1,41 @@
+.product-container{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-left: 142px;
+    margin-top: 59px;
+    text-align: center;
+}
+.product-img{
+    width: 160.21px;
+    height: 140.21px;
+    margin-bottom: 17px;
+}
+.product-name{
+    margin-bottom: 4px;
+}
+.product-calories{
+    display: flex;
+    justify-content: space-evenly;
+    width: 375px;
+    height: 92px;
+    background: #FFF8EE;
+}
+.product-category-margin{
+    margin-top: 19px;
+}
+.product-details-container{
+    margin-top: 100px;
+    margin-left: 173px;
+}
+.product-ingrediants-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    margin-top: 52px;
+    margin-left: 173px;
+}
+.product-btn{
+    margin: 50px 176px ;
+}

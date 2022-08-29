@@ -1,0 +1,83 @@
+@import "./styles/base/colors.scss";
+@import "./styles/base/fonts.scss";
+
+.login-title {
+  color: $green-default-color;
+}
+
+.label {
+  @include title-font;
+}
+
+.login-input {
+  @include login-input;
+}
+.login-btn {
+  @include btn-login;
+}
+.username {
+  @include user-name;
+}
+.home-title {
+  @include title-home;
+}
+.input-home {
+  @include input;
+}
+.home-card-title {
+  @include home-card-title;
+}
+.home-card-description {
+  @include home-card-description;
+}
+.log-out {
+  @include logOut;
+}
+.favourite-title {
+  @include favourite-title;
+}
+.foods-category {
+  @include foods-category;
+}
+.foods-category-title {
+  @include foods-category-title;
+}
+.product-datails-title {
+  @include product-datails-title;
+}
+.favourite-details {
+  @include favourite-details;
+}
+.details {
+  @include details;
+}
+.highlight-colors {
+  @include highlight-colors;
+}
+.empty-heading{
+  @include empty-heading;
+}
+.empty-title{
+  @include empty-title;
+}
+.product-name{
+  @include product-name;
+}
+.product-category{
+  @include product-category;
+}
+.product-category-calories{
+  @include product-category-calories;
+}
+.see-all-color{
+  @include see-all-color ;
+}
+.product-ingrediants-description{
+  @include product-ingrediants-description;
+}
+.add-btn{
+  @include add-btn;
+}
+.disabled-btn{
+  @include disabled-btn;
+}

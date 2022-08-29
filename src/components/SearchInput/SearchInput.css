@@ -1,0 +1,9 @@
+.input-width {
+    width: 100%;
+    padding: 14px 30px;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid rgba(255, 131, 115, 0.788);
+}

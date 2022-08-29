@@ -1,0 +1,10 @@
+.favourite-cart-container {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+.details {
+  max-width: 573px;
+}

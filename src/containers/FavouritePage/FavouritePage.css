@@ -1,0 +1,26 @@
+.title-container {
+  padding-top: 57px;
+  padding-left: 192px;
+  margin-bottom: 79px;
+}
+.m-r {
+  margin-right: 21px;
+}
+.empty-favourites{
+  margin: 0 auto;
+  width: 956px;
+  height: 332px;
+  border: 1px solid #DADADA;
+  text-align: center;
+}
+.empty-fav-img{
+  padding: 60px 0px;
+}
+.empty-heading{
+  padding-bottom: 10px;
+}
+.empty-title{
+  width: 240px;
+height: 45px;
+margin: 0 auto;
+}

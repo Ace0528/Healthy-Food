@@ -1,0 +1,34 @@
+$green-default-color: #91c788;
+$red-default-color: #ff8473;
+$black-default-color: #330600;
+$gray-default-color: #5c5c5c;
+$input-default-backgound-color: #ececec;
+$detail-defaulst-color: #7e7e7e;
+
+@mixin login-input {
+  background-color: $input-default-backgound-color;
+  height: 30px;
+  width: 300px;
+  border-radius: 12px;
+  border: none;
+  margin: 10px 0px;
+}
+@mixin btn-login {
+  background-color: $green-default-color;
+  height: 30px;
+  width: 280px;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  margin: 10px 0px;
+}
+
+@mixin input {
+  background-color: #ff84733d;
+  border-radius: 15px;
+  color: #da6317;
+  border: none;
+}

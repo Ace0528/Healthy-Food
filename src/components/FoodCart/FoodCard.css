@@ -1,0 +1,15 @@
+.cart {
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+  height: 192px;
+  width: 154px;
+  text-align: center;
+}
+.image-margin {
+  margin: 10px 0;
+}
+.favourite-heart {
+  position: relative;
+  left: 55px;
+  top: -160px;
+}
